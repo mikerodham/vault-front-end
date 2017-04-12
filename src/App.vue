@@ -19,7 +19,9 @@
                 </div>
                 <div class="col-sm-8">
                     <div class="vault">
-                        <encryption></encryption>
+                        <div id="flex-container">
+                            <div id="flex-item-app"><encryption></encryption></div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -37,6 +39,7 @@
 
 <style>
     @import url('./assets/css/bootstrap-material-design.min.css');
+
 
     .vault-wrapper.row [class*='col-']:first-child {
         padding-right: 0;
@@ -57,7 +60,6 @@
     body {
         background: #666;
         color: #000000;
-        padding-top: 30px;
     }
 
     .vault {
