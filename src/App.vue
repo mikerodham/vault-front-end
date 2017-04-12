@@ -40,6 +40,45 @@
 <style>
     @import url('./assets/css/bootstrap-material-design.min.css');
 
+    body, html {
+        height: 100%;
+    }
+    body {
+        padding-top: 0;
+        margin-top: 0;
+    }
+
+    #flex-container {
+        display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
+        display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
+        display: -webkit-flex;     /* NEW - Chrome */
+        display: flex;             /* NEW, Spec - Opera 12.1, Firefox 20+ */
+        -webkit-box-flex-direction: row;
+        -moz-box-flex-direction: row;
+        -webkit-flex-direction: row;
+        flex-direction: row;
+        height:100%;
+        /*
+        position: fixed;
+        top:0;
+        left:0;
+        right:0;
+        bottom:0;
+        */
+    }
+
+    #flex-item {
+        margin: auto;
+        height:auto;
+        width:auto;
+    }
+
+    #flex-item-app {
+        margin: auto;
+        height:auto;
+        width:100%;
+    }
+
 
     .vault-wrapper.row [class*='col-']:first-child {
         padding-right: 0;
