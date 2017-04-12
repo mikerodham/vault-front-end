@@ -40,6 +40,22 @@
 <style>
     @import url('./assets/css/bootstrap-material-design.min.css');
 
+    #snackbar-container {
+        position: fixed;
+        bottom: 0;
+        left: 20px;
+    }
+
+    .snackbar-success {
+        background: #2e9237;
+        color: #ffffff;
+    }
+
+    .snackbar-danger {
+        background: #921f18;
+        color: #ffffff;
+    }
+
     body, html {
         height: 100%;
     }

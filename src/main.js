@@ -3,6 +3,7 @@
 import Vue from 'vue'
 
 var $ = require('jquery')
+require('snackbarjs')
 import App from './App'
 
 Vue.component('encryption', require('./components/Encryption.vue'))

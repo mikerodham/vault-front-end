@@ -12,6 +12,7 @@
     "axios": "^0.16.0",
     "bootstrap-material-design": "^0.5.10",
     "moment": "^2.18.1",
+    "snackbarjs": "^1.1.0",
     "vue": "^2.2.2",
     "vue-router": "^2.2.0"
   },
