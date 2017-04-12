@@ -139,6 +139,17 @@
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+
+    @media only screen and (min-width : 768px) {
+        .is-table-row {
+            display: table;
+        }
+        .is-table-row [class*="col-"] {
+            float: none;
+            display: table-cell;
+            vertical-align: top;
+        }
+    }
     h1 {
         margin-top: 0;
         padding-top: 20px;

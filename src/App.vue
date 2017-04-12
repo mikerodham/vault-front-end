@@ -1,7 +1,7 @@
 <template>
     <div id="app">
         <div class="container">
-            <div class="vault-wrapper row">
+            <div class="vault-wrapper row equal">
                 <div class="col-sm-4">
                     <div class="gutter">
                         <h1>The Vault</h1>
@@ -45,6 +45,15 @@
         padding-left: 0;
     }
 
+    .equal {
+        display: flex;
+        display: -webkit-flex;
+    }
+
+    html, body {
+        height: 100%;
+    }
+
     body {
         background: #666;
         color: #000000;
@@ -53,6 +62,7 @@
 
     .vault {
         background: #fff;
+        height: 100%;
     }
 
     p {
