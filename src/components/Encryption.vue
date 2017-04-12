@@ -4,7 +4,9 @@
         <div id="decider" v-if="!decryptView && !encryptView">
 
             <button class="btn btn-primary btn-raised" @click="encryptView = true">Encrypt</button>
+
             <hr>
+
             <button class="btn btn-primary btn-raised" @click="decryptView = true">Decrypt</button>
 
         </div>
@@ -142,6 +144,10 @@
     h1 {
         margin-top: 0;
         padding-top: 20px;
+    }
+
+    #decider > .btn {
+        font-size: 42px;
     }
 
     .form-label {
